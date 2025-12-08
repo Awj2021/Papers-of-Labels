@@ -14,6 +14,7 @@ Recording several papers about the labels appeared in the top-tier conferences, 
 1. Boosting Class Representation via Semantically Related Instances for Robust Long-Tailed Learning with Noisy Labels <https://openaccess.thecvf.com/content/ICCV2025/papers/Li_Boosting_Class_Representation_via_Semantically_Related_Instances_for_Robust_Long-Tailed_ICCV_2025_paper.pdf>
 2. Unlocker: Disentangle the Deadlock of Learning from Label-noisy and Long-tailed Data  <https://openreview.net/pdf?id=jTCiQpV0Lx>
 3. When Noisy Labels Meet Long Tail Dilemmas: A Representation Calibration Method<https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_When_Noisy_Labels_Meet_Long_Tail_Dilemmas_A_Representation_Calibration_ICCV_2023_paper.pdf>
+4. Label-Noise Learning with Intrinsically Long-Tailed Data <https://openaccess.thecvf.com/content/ICCV2023/papers/Lu_Label-Noise_Learning_with_Intrinsically_Long-Tailed_Data_ICCV_2023_paper.pdf>
 
 ## Long-tailed Learning
 1. Retrieval Augmented Classification for Long-Tail Visual Recognition
