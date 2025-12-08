@@ -8,8 +8,8 @@ Recording several papers about the labels appeared in the top-tier conferences, 
 
 ## Corrupted Labels Detection
 1. Detecting Corrupted Labels without Training a Model to Predict<https://proceedings.mlr.press/v162/zhu22a/zhu22a.pdf>
-2. LEMoN: Label Error Detection using MultiModal Neighbors
-3. Understanding and Mitigating the Bias in Sample Selection for Learning with Noisy Labels
+2. LEMoN: Label Error Detection using MultiModal Neighbors 
+3. Understanding and Mitigating the Bias in Sample Selection for Learning with Noisy Labels <https://arxiv.org/pdf/2401.13360>
 ## Label-Noise and Long-tailed Data
 1. Boosting Class Representation via Semantically Related Instances for Robust Long-Tailed Learning with Noisy Labels <https://openaccess.thecvf.com/content/ICCV2025/papers/Li_Boosting_Class_Representation_via_Semantically_Related_Instances_for_Robust_Long-Tailed_ICCV_2025_paper.pdf>
 2. Unlocker: Disentangle the Deadlock of Learning from Label-noisy and Long-tailed Data  <https://openreview.net/pdf?id=jTCiQpV0Lx>
