@@ -19,5 +19,29 @@ Recording several papers about the labels appeared in the top-tier conferences, 
 
 ## Long-tailed Learning
 1. Retrieval Augmented Classification for Long-Tail Visual Recognition | **CVPR2022** | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Long_Retrieval_Augmented_Classification_for_Long-Tail_Visual_Recognition_CVPR_2022_paper.pdf)
+2. Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning | **NIPS2025** | [paper]() | **[code](https://github.com/yaxinhou/CPG)**
+
+## Noisy Partial Label Learning (NPLL)
+Terminology words:
+candidate label set (CLS)
+1. Noise Separation guided Candidate Label Reconstruction for Noisy Partial Label Learning | **ICLR 2025** | [paper](https://openreview.net/pdf?id=TOahfjA3sP) | **[code](https://github.com/pruirui/PLRC)** 
+
+Keys: 1) partion samples into three parts: highly reliable normal samples, highly reliable noisy samples, and uncertain samples. 2) reconstruct the CLS for each instance -- reducing its size and containing ground-truth label. 
+
+**Note**: This paper inspires me a lot, please read it carefully. 
+
+## Partial Label Learning 
+1. Confidence-Aware With Prototype Alignment for Partial Multi-label Learning | **ICLR2025** | [paper](https://openreview.net/forum?id=Hp78SvTU2N) | **[code]()**
+2. Reduction-based Pseudo-label Generation for
+Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=0THi1tG1HY) | **[code]()**
+3. Rethinking Self-Distillation: Label Averaging and Enhanced Soft Label Refinement with Partial Labels | **ICLR2025** | [paper](https://openreview.net/forum?id=EJfLvrzh2Q) | **[code]()**
+4. Partial Information Decomposition via Normalizing Flows in Latent Gaussian Distributions | **NIPS2025** | [paper](https://openreview.net/forum?id=X13jOIhnog) | **[code]()** 
+
+## Label Enhancement
+1. Selective Label Enhancement Learning for Test-Time Adaptation | **ICLR2025** | [paper](https://openreview.net/pdf?id=3Z2flzXzBY) | **[code](https://github.com/palm-ml/PASLE)**
 
 ## Multi-Rater Learning
+
+## Others maybe useful
+1. SIMPLE YET EFFECTIVE INCOMPLETE MULTI-VIEWCLUSTERING: SIMILARITY-LEVEL IMPUTATION ANDINTRA-VIEW HYBRID-GROUP PROTOTYPE CONSTRUC-TION | **ICLR2025** | [paper](https://openreview.net/pdf?id=KijslFbfOL) | **[code]**
+2. DROP-UPCYCLING: TRAINING SPARSE MIXTURE OFEXPERTS WITH PARTIAL RE-INITIALIZATION | **ICLR2025** | [paper](https://openreview.net/pdf?id=gx1wHnf5Vp) | **[code]**
