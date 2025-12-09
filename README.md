@@ -6,6 +6,11 @@ Recording several papers about the labels appeared in the top-tier conferences, 
 
 1. Label-Retrieval-Augmented Diffusion Models for Learning from Noisy Labels | **NeurIPS2023** | [paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/d191ba4c8923ed8fd8935b7c98658b5f-Paper-Conference.pdf)
 
+### Label Noise Methods
+
+1. Regretful Decisions under Label Noise | **ICLR2025** | [paper](https://openreview.net/pdf?id=7B9FCDoUzB)
+2. For Better or For Worse? Learning Minimum Variance Features With Label Augmentation | **ICLR2025** | [paper](https://openreview.net/pdf?id=LCL8SMGxDY)
+
 ## Corrupted Labels Detection
 1. Detecting Corrupted Labels without Training a Model to Predict | **ICML2022** | [paper](https://proceedings.mlr.press/v162/zhu22a/zhu22a.pdf)
 2. LEMoN: Label Error Detection using MultiModal Neighbors
@@ -20,6 +25,7 @@ Recording several papers about the labels appeared in the top-tier conferences, 
 ## Long-tailed Learning
 1. Retrieval Augmented Classification for Long-Tail Visual Recognition | **CVPR2022** | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Long_Retrieval_Augmented_Classification_for_Long-Tail_Visual_Recognition_CVPR_2022_paper.pdf)
 2. Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning | **NIPS2025** | [paper]() | **[code](https://github.com/yaxinhou/CPG)**
+3. Rethinking Classifier Re-Training in Long-Tailed Recognition: Label Over-Smooth Can Balance | **ICLR2025** | [paper](https://openreview.net/pdf?id=OeKp3AdiVO)
 
 ## Noisy Partial Label Learning (NPLL)
 Terminology words:
@@ -30,18 +36,38 @@ Keys: 1) partion samples into three parts: highly reliable normal samples, highl
 
 **Note**: This paper inspires me a lot, please read it carefully. 
 
-## Partial Label Learning 
+## Partial Label Learning
 1. Confidence-Aware With Prototype Alignment for Partial Multi-label Learning | **ICLR2025** | [paper](https://openreview.net/forum?id=Hp78SvTU2N) | **[code]()**
 2. Reduction-based Pseudo-label Generation for
 Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=0THi1tG1HY) | **[code]()**
 3. Rethinking Self-Distillation: Label Averaging and Enhanced Soft Label Refinement with Partial Labels | **ICLR2025** | [paper](https://openreview.net/forum?id=EJfLvrzh2Q) | **[code]()**
-4. Partial Information Decomposition via Normalizing Flows in Latent Gaussian Distributions | **NIPS2025** | [paper](https://openreview.net/forum?id=X13jOIhnog) | **[code]()** 
+4. Partial Information Decomposition via Normalizing Flows in Latent Gaussian Distributions | **NIPS2025** | [paper](https://openreview.net/forum?id=X13jOIhnog) | **[code]()**
+5. Realistic Evaluation of Deep Partial-Label Learning Algorithms | **ICLR2025 Spotlight** | [paper](https://openreview.net/pdf?id=FtX6oAW7Dd) 
 
 ## Label Enhancement
 1. Selective Label Enhancement Learning for Test-Time Adaptation | **ICLR2025** | [paper](https://openreview.net/pdf?id=3Z2flzXzBY) | **[code](https://github.com/palm-ml/PASLE)**
 
 ## Multi-Rater Learning
 
+## Active Learning and Coreset Selection
+1. Uncertainty Herding: One Active Learning Method for All Label Budgets | **ICLR2025** | [paper](https://openreview.net/pdf?id=UgPoHhYQ2U)
+2. ELFS: Label-Free Coreset Selection with Proxy Training Dynamics | **ICLR2025** | [paper](https://openreview.net/pdf?id=yklJpvB7Dq)
+3. Coreset Selection via Reducible Loss in Continual Learning | **ICLR2025** | [paper](https://openreview.net/pdf?id=mAztx8QO3B)
+
+## Label Refinement and RLHF
+1. Sail into the Headwind: Alignment via Robust Rewards and Dynamic Labels against Reward Hacking | **ICLR2025** | [paper](https://openreview.net/pdf?id=I8af9JdQTy)
+2. Iterative Label Refinement Matters More than Preference Optimization under Weak Supervision | **ICLR2025 Spotlight** | [paper](https://openreview.net/pdf?id=q5EZ7gKcnW)
+
+## Prototype Learning
+1. Learn hybrid prototypes for multivariate time series anomaly detection | **ICLR2025** | [paper](https://openreview.net/pdf?id=8TBGdH3t6a)
+2. What Do You See in Common? Learning Hierarchical Prototypes over Tree-of-Life to Discover Evolutionary Traits | **ICLR2025** | [paper](https://openreview.net/pdf?id=4sDicVEy6M)
+3. Learning Clustering-based Prototypes for Compositional Zero-Shot Learning | **ICLR2025** | [paper](https://openreview.net/pdf?id=eE2PXlNydB)
+4. High-dimension Prototype is a Better Incremental Object Detection Learner | **ICLR2025** | [paper](https://openreview.net/pdf?id=6T8czSBWce)
+
 ## Others maybe useful
-1. SIMPLE YET EFFECTIVE INCOMPLETE MULTI-VIEWCLUSTERING: SIMILARITY-LEVEL IMPUTATION ANDINTRA-VIEW HYBRID-GROUP PROTOTYPE CONSTRUC-TION | **ICLR2025** | [paper](https://openreview.net/pdf?id=KijslFbfOL) | **[code]**
-2. DROP-UPCYCLING: TRAINING SPARSE MIXTURE OFEXPERTS WITH PARTIAL RE-INITIALIZATION | **ICLR2025** | [paper](https://openreview.net/pdf?id=gx1wHnf5Vp) | **[code]**
+1. SoftCVI: Contrastive variational inference with self-generated soft labels | **ICLR2025 Spotlight** | [paper](https://openreview.net/pdf?id=PiZtlzMWUj)
+2. Can We Ignore Labels in Out of Distribution Detection? | **ICLR2025** | [paper](https://openreview.net/pdf?id=falBlwUsIH)
+3. Dynamic Loss-Based Sample Reweighting for Improved Large Language Model Pretraining | **ICLR2025** | [paper](https://openreview.net/pdf?id=gU4ZgQNsOC)
+4. Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape View | **ICLR2025** | [paper](https://openreview.net/pdf?id=m51BgoqvbP)
+5. SIMPLE YET EFFECTIVE INCOMPLETE MULTI-VIEWCLUSTERING: SIMILARITY-LEVEL IMPUTATION ANDINTRA-VIEW HYBRID-GROUP PROTOTYPE CONSTRUC-TION | **ICLR2025** | [paper](https://openreview.net/pdf?id=KijslFbfOL) | **[code]**
+6. DROP-UPCYCLING: TRAINING SPARSE MIXTURE OFEXPERTS WITH PARTIAL RE-INITIALIZATION | **ICLR2025** | [paper](https://openreview.net/pdf?id=gx1wHnf5Vp) | **[code]**
