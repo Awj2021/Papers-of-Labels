@@ -1,6 +1,10 @@
 # Papers-of-Labels
 Recording several papers about the labels appeared in the top-tier conferences, like NIPS, ICCV, CVPR, etc.
 
+## My Own Ideas
+Prototype features   
+Semantic Featrues 
+
 ## Learning with Noisy Labels
 ### Diffusion Based Method
 
@@ -10,6 +14,7 @@ Recording several papers about the labels appeared in the top-tier conferences, 
 
 1. Regretful Decisions under Label Noise | **ICLR2025** | [paper](https://openreview.net/pdf?id=7B9FCDoUzB)
 2. For Better or For Worse? Learning Minimum Variance Features With Label Augmentation | **ICLR2025** | [paper](https://openreview.net/pdf?id=LCL8SMGxDY)
+3. SELC: Self-Ensemble Label Correction Improves Learning with Noisy Labels | **IJCAI2022** | [paper](https://www.ijcai.org/proceedings/2022/0455.pdf) | [**code**](https://github.com/MacLLL/SELC) | **Note**: this paper utilize the Ensemble Prediction (given labels + model's prediction) to improve the model's performance. 
 
 ## Corrupted Labels Detection
 1. Detecting Corrupted Labels without Training a Model to Predict | **ICML2022** | [paper](https://proceedings.mlr.press/v162/zhu22a/zhu22a.pdf)
@@ -24,7 +29,7 @@ Recording several papers about the labels appeared in the top-tier conferences, 
 
 ## Long-tailed Learning
 1. Retrieval Augmented Classification for Long-Tail Visual Recognition | **CVPR2022** | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Long_Retrieval_Augmented_Classification_for_Long-Tail_Visual_Recognition_CVPR_2022_paper.pdf)
-2. Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning | **NIPS2025** | [paper]() | **[code](https://github.com/yaxinhou/CPG)**
+2. Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning | **NIPS2025** | **[code](https://github.com/yaxinhou/CPG)**
 3. Rethinking Classifier Re-Training in Long-Tailed Recognition: Label Over-Smooth Can Balance | **ICLR2025** | [paper](https://openreview.net/pdf?id=OeKp3AdiVO)
 
 ## Noisy Partial Label Learning (NPLL)
@@ -36,11 +41,15 @@ Keys: 1) partion samples into three parts: highly reliable normal samples, highl
 
 **Note**: This paper inspires me a lot, please read it carefully. 
 
+2. Bridging weakly-supervised learning and VLM distialltion: Noisy Partial Label learning for effecient Downstream adaptation | **TCSVT** | [paper](https://arxiv.org/pdf/2506.03229) | **[code]()** 
+
+**There are another several papers about this field, so we could read and try to utilize them in the Multi-rater learning**
+
 ## Partial Label Learning
 1. Confidence-Aware With Prototype Alignment for Partial Multi-label Learning | **ICLR2025** | [paper](https://openreview.net/forum?id=Hp78SvTU2N) | **[code]()**
 2. Reduction-based Pseudo-label Generation for
 Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=0THi1tG1HY) | **[code]()**
-3. Rethinking Self-Distillation: Label Averaging and Enhanced Soft Label Refinement with Partial Labels | **ICLR2025** | [paper](https://openreview.net/forum?id=EJfLvrzh2Q) | **[code]()**
+3. Rethinking Self-Distillation: Label Averaging and Enhanced Soft Label Refinement with Partial Labels | **ICLR2025** | [paper](https://openreview.net/forum?id=EJfLvrzh2Q) | **[code](https://github.com/Hyeonsu-Jeong/SelfPLL/tree/master)**
 4. Partial Information Decomposition via Normalizing Flows in Latent Gaussian Distributions | **NIPS2025** | [paper](https://openreview.net/forum?id=X13jOIhnog) | **[code]()**
 5. Realistic Evaluation of Deep Partial-Label Learning Algorithms | **ICLR2025 Spotlight** | [paper](https://openreview.net/pdf?id=FtX6oAW7Dd) 
 
@@ -71,3 +80,8 @@ Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openr
 4. Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape View | **ICLR2025** | [paper](https://openreview.net/pdf?id=m51BgoqvbP)
 5. SIMPLE YET EFFECTIVE INCOMPLETE MULTI-VIEWCLUSTERING: SIMILARITY-LEVEL IMPUTATION ANDINTRA-VIEW HYBRID-GROUP PROTOTYPE CONSTRUC-TION | **ICLR2025** | [paper](https://openreview.net/pdf?id=KijslFbfOL) | **[code]**
 6. DROP-UPCYCLING: TRAINING SPARSE MIXTURE OFEXPERTS WITH PARTIAL RE-INITIALIZATION | **ICLR2025** | [paper](https://openreview.net/pdf?id=gx1wHnf5Vp) | **[code]**
+
+
+## Others
+1. Forming Auxiliary High-confident Instance-level Loss to Promote Learning from Label Proportions | **CVPR2025** | [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Ma_Forming_Auxiliary_High-confident_Instance-level_Loss_to_Promote_Learning_from_Label_CVPR_2025_paper.pdf) 
+**keypoint**: using bags of instances
