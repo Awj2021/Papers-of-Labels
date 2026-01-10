@@ -15,6 +15,7 @@ Semantic Featrues
 1. Regretful Decisions under Label Noise | **ICLR2025** | [paper](https://openreview.net/pdf?id=7B9FCDoUzB)
 2. For Better or For Worse? Learning Minimum Variance Features With Label Augmentation | **ICLR2025** | [paper](https://openreview.net/pdf?id=LCL8SMGxDY)
 3. SELC: Self-Ensemble Label Correction Improves Learning with Noisy Labels | **IJCAI2022** | [paper](https://www.ijcai.org/proceedings/2022/0455.pdf) | [**code**](https://github.com/MacLLL/SELC) | **Note**: this paper utilize the Ensemble Prediction (given labels + model's prediction) to improve the model's performance. 
+4. Learning to Clean: Reinforcement Learning for Noisy Label Correction | **NIPS2025** | [paper](https://openreview.net/pdf?id=v8InI8hobW)
 
 ## Corrupted Labels Detection
 1. Detecting Corrupted Labels without Training a Model to Predict | **ICML2022** | [paper](https://proceedings.mlr.press/v162/zhu22a/zhu22a.pdf)
@@ -72,6 +73,7 @@ Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openr
 2. What Do You See in Common? Learning Hierarchical Prototypes over Tree-of-Life to Discover Evolutionary Traits | **ICLR2025** | [paper](https://openreview.net/pdf?id=4sDicVEy6M)
 3. Learning Clustering-based Prototypes for Compositional Zero-Shot Learning | **ICLR2025** | [paper](https://openreview.net/pdf?id=eE2PXlNydB)
 4. High-dimension Prototype is a Better Incremental Object Detection Learner | **ICLR2025** | [paper](https://openreview.net/pdf?id=6T8czSBWce)
+5. PROGRAM: PROTOTYPE GRAPH MODEL BASEDPSEUDO-LABEL LEARNING FOR TEST-TIME ADAPTA-TION | **ICLR2024** | [paper](https://openreview.net/pdf?id=x5LvBK43wg)
 
 ## Others maybe useful
 1. SoftCVI: Contrastive variational inference with self-generated soft labels | **ICLR2025 Spotlight** | [paper](https://openreview.net/pdf?id=PiZtlzMWUj)
@@ -79,9 +81,14 @@ Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openr
 3. Dynamic Loss-Based Sample Reweighting for Improved Large Language Model Pretraining | **ICLR2025** | [paper](https://openreview.net/pdf?id=gU4ZgQNsOC)
 4. Understanding Warmup-Stable-Decay Learning Rates: A River Valley Loss Landscape View | **ICLR2025** | [paper](https://openreview.net/pdf?id=m51BgoqvbP)
 5. SIMPLE YET EFFECTIVE INCOMPLETE MULTI-VIEWCLUSTERING: SIMILARITY-LEVEL IMPUTATION ANDINTRA-VIEW HYBRID-GROUP PROTOTYPE CONSTRUC-TION | **ICLR2025** | [paper](https://openreview.net/pdf?id=KijslFbfOL) | **[code]**
-6. DROP-UPCYCLING: TRAINING SPARSE MIXTURE OFEXPERTS WITH PARTIAL RE-INITIALIZATION | **ICLR2025** | [paper](https://openreview.net/pdf?id=gx1wHnf5Vp) | **[code]**
+6. DROP-UPCYCLING: TRAINING SPARSE MIXTURE OF EXPERTS WITH PARTIAL RE-INITIALIZATION | **ICLR2025** | [paper](https://openreview.net/pdf?id=gx1wHnf5Vp) | **[code]**
 
 
 ## Others
 1. Forming Auxiliary High-confident Instance-level Loss to Promote Learning from Label Proportions | **CVPR2025** | [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Ma_Forming_Auxiliary_High-confident_Instance-level_Loss_to_Promote_Learning_from_Label_CVPR_2025_paper.pdf) 
 **keypoint**: using bags of instances
+2. PCA++: How uniformity induces Robustness to Background Noise in Contrastive Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=at87L8EuzR) | **[code]** | 
+
+## Blogs
+### Semi Supervised Learning
+[Semi Supervised Learning](https://lilianweng.github.io/posts/2021-12-05-semi-supervised/)
