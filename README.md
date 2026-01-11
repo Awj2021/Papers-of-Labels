@@ -90,7 +90,8 @@ Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openr
 ## Others
 1. Forming Auxiliary High-confident Instance-level Loss to Promote Learning from Label Proportions | **CVPR2025** | [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Ma_Forming_Auxiliary_High-confident_Instance-level_Loss_to_Promote_Learning_from_Label_CVPR_2025_paper.pdf) 
 **keypoint**: using bags of instances
-2. PCA++: How uniformity induces Robustness to Background Noise in Contrastive Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=at87L8EuzR) | **[code]** | 
+2. PCA++: How uniformity induces Robustness to Background Noise in Contrastive Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=at87L8EuzR) | **[code]** |
+3. P2OT: PROGRESSIVE PARTIAL OPTIMAL TRANSPORT FOR DEEP IMBALANCED CLUSTERING | **ICLR2024** | [**paper**](https://arxiv.org/pdf/2401.09266) | [**code**](https://github.com/rhfeiyang/PPOT)
 
 ## Blogs
 ### Semi Supervised Learning
