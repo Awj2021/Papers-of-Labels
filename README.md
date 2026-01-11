@@ -16,6 +16,9 @@ Semantic Featrues
 2. For Better or For Worse? Learning Minimum Variance Features With Label Augmentation | **ICLR2025** | [paper](https://openreview.net/pdf?id=LCL8SMGxDY)
 3. SELC: Self-Ensemble Label Correction Improves Learning with Noisy Labels | **IJCAI2022** | [paper](https://www.ijcai.org/proceedings/2022/0455.pdf) | [**code**](https://github.com/MacLLL/SELC) | **Note**: this paper utilize the Ensemble Prediction (given labels + model's prediction) to improve the model's performance. 
 4. Learning to Clean: Reinforcement Learning for Noisy Label Correction | **NIPS2025** | [paper](https://openreview.net/pdf?id=v8InI8hobW)
+5. NoiseGPT: Label Noise Detection and Rectification through Probability Curvature | **NIPS2024** | [paper](https://openreview.net/pdf?id=VRRvJnxgQe)
+6. Learning Discriminative Dynamics with Label Corruption for Noisy Label Detection | **CVPR2024** | [paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Learning_Discriminative_Dynamics_with_Label_Corruption_for_Noisy_Label_Detection_CVPR_2024_paper.pdf) | [code]
+7. Vision-Language Models are Strong Noisy Label Detectors | [**paper**](https://arxiv.org/pdf/2409.19696) | [**code**](https://github.com/HotanLee/DeFT)
 
 ## Corrupted Labels Detection
 1. Detecting Corrupted Labels without Training a Model to Predict | **ICML2022** | [paper](https://proceedings.mlr.press/v162/zhu22a/zhu22a.pdf)
@@ -92,6 +95,8 @@ Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openr
 **keypoint**: using bags of instances
 2. PCA++: How uniformity induces Robustness to Background Noise in Contrastive Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=at87L8EuzR) | **[code]** |
 3. P2OT: PROGRESSIVE PARTIAL OPTIMAL TRANSPORT FOR DEEP IMBALANCED CLUSTERING | **ICLR2024** | [**paper**](https://arxiv.org/pdf/2401.09266) | [**code**](https://github.com/rhfeiyang/PPOT)
+4.Self-Supervised Wasserstein Pseudo-Labeling for Semi-Supervised Image
+Classification | [**paper**](https://openaccess.thecvf.com/content/CVPR2021/papers/Taherkhani_Self-Supervised_Wasserstein_Pseudo-Labeling_for_Semi-Supervised_Image_Classification_CVPR_2021_paper.pdf) | **[code]**()
 
 ## Blogs
 ### Semi Supervised Learning
