@@ -32,6 +32,7 @@ Semantic Featrues
 1. Retrieval Augmented Classification for Long-Tail Visual Recognition | **CVPR2022** | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Long_Retrieval_Augmented_Classification_for_Long-Tail_Visual_Recognition_CVPR_2022_paper.pdf)
 2. Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning | **NIPS2025** | **[code](https://github.com/yaxinhou/CPG)**
 3. Rethinking Classifier Re-Training in Long-Tailed Recognition: Label Over-Smooth Can Balance | **ICLR2025** | [paper](https://openreview.net/pdf?id=OeKp3AdiVO)
+4. Revive Re-weighting in Imbalanced Learning by Density Ratio Estimation | **NIPS2024** | [paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/92440ec643f4e9f17409557b6516566e-Paper-Conference.pdf) | [**code**](https://github.com/GoodMorningPeter/RDR)
 
 ## Noisy Partial Label Learning (NPLL)
 Terminology words:
