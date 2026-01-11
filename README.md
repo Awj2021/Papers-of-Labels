@@ -33,6 +33,7 @@ Semantic Featrues
 2. Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning | **NIPS2025** | **[code](https://github.com/yaxinhou/CPG)**
 3. Rethinking Classifier Re-Training in Long-Tailed Recognition: Label Over-Smooth Can Balance | **ICLR2025** | [paper](https://openreview.net/pdf?id=OeKp3AdiVO)
 4. Revive Re-weighting in Imbalanced Learning by Density Ratio Estimation | **NIPS2024** | [paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/92440ec643f4e9f17409557b6516566e-Paper-Conference.pdf) | [**code**](https://github.com/GoodMorningPeter/RDR)
+5. Long-Tailed Out-of-Distribution Detection via Normalized Outlier Distribution Adaptation | **NIPS2024** | [paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee657707107aa886da19ef6c4b311975-Paper-Conference.pdf) | **[code]**(https://github.com/mala-lab/AdaptOD)
 
 ## Noisy Partial Label Learning (NPLL)
 Terminology words:
