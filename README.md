@@ -52,7 +52,8 @@ Keys: 1) partion samples into three parts: highly reliable normal samples, highl
 Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=0THi1tG1HY) | **[code]()**
 3. Rethinking Self-Distillation: Label Averaging and Enhanced Soft Label Refinement with Partial Labels | **ICLR2025** | [paper](https://openreview.net/forum?id=EJfLvrzh2Q) | **[code](https://github.com/Hyeonsu-Jeong/SelfPLL/tree/master)**
 4. Partial Information Decomposition via Normalizing Flows in Latent Gaussian Distributions | **NIPS2025** | [paper](https://openreview.net/forum?id=X13jOIhnog) | **[code]()**
-5. Realistic Evaluation of Deep Partial-Label Learning Algorithms | **ICLR2025 Spotlight** | [paper](https://openreview.net/pdf?id=FtX6oAW7Dd) 
+5. Realistic Evaluation of Deep Partial-Label Learning Algorithms | **ICLR2025 Spotlight** | [paper](https://openreview.net/pdf?id=FtX6oAW7Dd)
+6. LONG-TAILED PARTIAL LABEL LEARNING VIADYNAMIC REBALANCING | **ICLR2023** | [paper](https://arxiv.org/pdf/2302.05080) | [**code**](https://github.com/MediaBrain-SJTU/RECORDS-LTPLL)
 
 ## Label Enhancement
 1. Selective Label Enhancement Learning for Test-Time Adaptation | **ICLR2025** | [paper](https://openreview.net/pdf?id=3Z2flzXzBY) | **[code](https://github.com/palm-ml/PASLE)**
