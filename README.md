@@ -16,6 +16,9 @@ Semantic Featrues
 2. For Better or For Worse? Learning Minimum Variance Features With Label Augmentation | **ICLR2025** | [paper](https://openreview.net/pdf?id=LCL8SMGxDY)
 3. SELC: Self-Ensemble Label Correction Improves Learning with Noisy Labels | **IJCAI2022** | [paper](https://www.ijcai.org/proceedings/2022/0455.pdf) | [**code**](https://github.com/MacLLL/SELC) | **Note**: this paper utilize the Ensemble Prediction (given labels + model's prediction) to improve the model's performance. 
 4. Learning to Clean: Reinforcement Learning for Noisy Label Correction | **NIPS2025** | [paper](https://openreview.net/pdf?id=v8InI8hobW)
+5. NoiseGPT: Label Noise Detection and Rectification through Probability Curvature | **NIPS2024** | [paper](https://openreview.net/pdf?id=VRRvJnxgQe)
+6. Learning Discriminative Dynamics with Label Corruption for Noisy Label Detection | **CVPR2024** | [paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Learning_Discriminative_Dynamics_with_Label_Corruption_for_Noisy_Label_Detection_CVPR_2024_paper.pdf) | [code](https://github.com/kimsu55/DynaCor)
+7. Vision-Language Models are Strong Noisy Label Detectors | [**paper**](https://arxiv.org/pdf/2409.19696) | [**code**](https://github.com/HotanLee/DeFT)
 
 ## Corrupted Labels Detection
 1. Detecting Corrupted Labels without Training a Model to Predict | **ICML2022** | [paper](https://proceedings.mlr.press/v162/zhu22a/zhu22a.pdf)
@@ -32,6 +35,8 @@ Semantic Featrues
 1. Retrieval Augmented Classification for Long-Tail Visual Recognition | **CVPR2022** | [paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Long_Retrieval_Augmented_Classification_for_Long-Tail_Visual_Recognition_CVPR_2022_paper.pdf)
 2. Keep It on a Leash: Controllable Pseudo-label Generation Towards Realistic Long-Tailed Semi-Supervised Learning | **NIPS2025** | **[code](https://github.com/yaxinhou/CPG)**
 3. Rethinking Classifier Re-Training in Long-Tailed Recognition: Label Over-Smooth Can Balance | **ICLR2025** | [paper](https://openreview.net/pdf?id=OeKp3AdiVO)
+4. Revive Re-weighting in Imbalanced Learning by Density Ratio Estimation | **NIPS2024** | [paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/92440ec643f4e9f17409557b6516566e-Paper-Conference.pdf) | [**code**](https://github.com/GoodMorningPeter/RDR)
+5. Long-Tailed Out-of-Distribution Detection via Normalized Outlier Distribution Adaptation | **NIPS2024** | [paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/ee657707107aa886da19ef6c4b311975-Paper-Conference.pdf) | **[code]**(https://github.com/mala-lab/AdaptOD)
 
 ## Noisy Partial Label Learning (NPLL)
 Terminology words:
@@ -52,7 +57,8 @@ Keys: 1) partion samples into three parts: highly reliable normal samples, highl
 Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=0THi1tG1HY) | **[code]()**
 3. Rethinking Self-Distillation: Label Averaging and Enhanced Soft Label Refinement with Partial Labels | **ICLR2025** | [paper](https://openreview.net/forum?id=EJfLvrzh2Q) | **[code](https://github.com/Hyeonsu-Jeong/SelfPLL/tree/master)**
 4. Partial Information Decomposition via Normalizing Flows in Latent Gaussian Distributions | **NIPS2025** | [paper](https://openreview.net/forum?id=X13jOIhnog) | **[code]()**
-5. Realistic Evaluation of Deep Partial-Label Learning Algorithms | **ICLR2025 Spotlight** | [paper](https://openreview.net/pdf?id=FtX6oAW7Dd) 
+5. Realistic Evaluation of Deep Partial-Label Learning Algorithms | **ICLR2025 Spotlight** | [paper](https://openreview.net/pdf?id=FtX6oAW7Dd)
+6. LONG-TAILED PARTIAL LABEL LEARNING VIADYNAMIC REBALANCING | **ICLR2023** | [paper](https://arxiv.org/pdf/2302.05080) | [**code**](https://github.com/MediaBrain-SJTU/RECORDS-LTPLL)
 
 ## Label Enhancement
 1. Selective Label Enhancement Learning for Test-Time Adaptation | **ICLR2025** | [paper](https://openreview.net/pdf?id=3Z2flzXzBY) | **[code](https://github.com/palm-ml/PASLE)**
@@ -87,8 +93,12 @@ Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openr
 ## Others
 1. Forming Auxiliary High-confident Instance-level Loss to Promote Learning from Label Proportions | **CVPR2025** | [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Ma_Forming_Auxiliary_High-confident_Instance-level_Loss_to_Promote_Learning_from_Label_CVPR_2025_paper.pdf) 
 **keypoint**: using bags of instances
-2. PCA++: How uniformity induces Robustness to Background Noise in Contrastive Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=at87L8EuzR) | **[code]** | 
-3. An Iterative algorithm for differentially private k-PCA with adaptive noise | **NIPS2025** | [paper]() | **[code]**
+2. An Iterative algorithm for differentially private k-PCA with adaptive noise | **NIPS2025** | [paper]() | **[code]**
+3. PCA++: How uniformity induces Robustness to Background Noise in Contrastive Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=at87L8EuzR) | **[code]** |
+4. P2OT: PROGRESSIVE PARTIAL OPTIMAL TRANSPORT FOR DEEP IMBALANCED CLUSTERING | **ICLR2024** | [**paper**](https://arxiv.org/pdf/2401.09266) | [**code**](https://github.com/rhfeiyang/PPOT)
+5.Self-Supervised Wasserstein Pseudo-Labeling for Semi-Supervised Image
+Classification | [**paper**](https://openaccess.thecvf.com/content/CVPR2021/papers/Taherkhani_Self-Supervised_Wasserstein_Pseudo-Labeling_for_Semi-Supervised_Image_Classification_CVPR_2021_paper.pdf) | **[code]**()
+6.COMPLEMENTARY LABEL LEARNING WITH POSITIVELABEL GUESSING AND NEGATIVE LABEL ENHANCE-MENT | **ICLR2025** | [**paper**](https://openreview.net/pdf?id=LPRxGZ7Oax) | [**code**](https://github.com/yhli-ml/PLNL)
 
 ## Blogs
 ### Semi Supervised Learning
