@@ -88,6 +88,7 @@ Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openr
 1. Forming Auxiliary High-confident Instance-level Loss to Promote Learning from Label Proportions | **CVPR2025** | [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Ma_Forming_Auxiliary_High-confident_Instance-level_Loss_to_Promote_Learning_from_Label_CVPR_2025_paper.pdf) 
 **keypoint**: using bags of instances
 2. PCA++: How uniformity induces Robustness to Background Noise in Contrastive Learning | **NIPS2025** | [paper](https://openreview.net/pdf?id=at87L8EuzR) | **[code]** | 
+3. An Iterative algorithm for differentially private k-PCA with adaptive noise | **NIPS2025** | [paper]() | **[code]**
 
 ## Blogs
 ### Semi Supervised Learning
