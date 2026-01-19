@@ -19,6 +19,38 @@ Semantic Featrues
 5. NoiseGPT: Label Noise Detection and Rectification through Probability Curvature | **NIPS2024** | [paper](https://openreview.net/pdf?id=VRRvJnxgQe)
 6. Learning Discriminative Dynamics with Label Corruption for Noisy Label Detection | **CVPR2024** | [paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Kim_Learning_Discriminative_Dynamics_with_Label_Corruption_for_Noisy_Label_Detection_CVPR_2024_paper.pdf) | [code](https://github.com/kimsu55/DynaCor)
 7. Vision-Language Models are Strong Noisy Label Detectors | [**paper**](https://arxiv.org/pdf/2409.19696) | [**code**](https://github.com/HotanLee/DeFT)
+8. ROBUST CLASSIFICATION VIA REGRESSION FOR LEARNING WITH NOISY LABELS | **ICLR2024** | [paper](https://openreview.net/pdf?id=wfgZc3IMqo) | [code](https://github.com/ErikEnglesson/SGN) | **Abastract**:   
+In this work, we present a **unified method** that seamlessly combines loss reweighting and
+label correction to enhance robustness against label noise in classification tasks.
+Specifically, by leveraging ideas from compositional data analysis in statistics,
+we frame the problem as a regression task, where loss reweighting and label
+correction can naturally be achieved with a shifted Gaussian label noise model. 
+9. Sample Selection via Contrastive Fragmentation for Noisy Label Regression | [**paper**](https://proceedings.neurips.cc/paper_files/paper/2024/file/e68c3a624d19154b28951e8690834607-Paper-Conference.pdf) | **[code]**(https://github.com/cdjkim/ConFrag) | 
+**Abstract**   
+As with many other problems, real-world regression is plagued by the presence
+of noisy labels, an inevitable issue that demands our attention. Fortunately, much
+real-world data often exhibits an intrinsic property of continuously ordered correlations between labels and features, where data points with similar labels are also represented with closely related features. In response, we propose a novel approach
+named ConFrag, where we collectively model the regression data by transforming
+them into disjoint yet contrasting fragmentation pairs. This enables the training
+of more distinctive representations, enhancing the ability to select clean samples.
+Our ConFrag framework leverages a mixture of neighboring fragments to discern
+noisy labels through neighborhood agreement among expert feature extractors.
+We extensively perform experiments on six newly curated benchmark datasets of
+diverse domains, including age prediction, price prediction, and music production
+year estimation. We also introduce a metric called Error Residual Ratio (ERR)
+to better account for varying degrees of label noise.
+10. Label Noise: Ignorance Is Bliss | [**paper**](https://proceedings.neurips.cc/paper_files/paper/2024/file/d3696c79d572c995a74eac78037551a8-Paper-Conference.pdf) | **Abstract** 
+We establish a new theoretical framework for learning under multi-class, instancedependent label noise. This framework casts learning with label noise as a form
+of domain adaptation, in particular, domain adaptation under posterior drift. We
+introduce the concept of relative signal strength (RSS), a pointwise measure that
+quantifies the transferability from noisy to clean posterior. Using RSS, we establish
+nearly matching upper and lower bounds on the excess risk. Our theoretical
+findings support the simple Noise Ignorant Empirical Risk Minimization (NI-ERM)principle, which minimizes empirical risk while ignoring label noise. Finally, we
+translate this theoretical insight into practice: by using NI-ERM to fit a linear
+classifier on top of a self-supervised feature extractor, we achieve state-of-the-art
+performance on the CIFAR-N data challenge
+11. Potential Energy based Mixture Model for Noisy Label
+Learning | **NIPS2022** | [**paper**](https://arxiv.org/pdf/2405.01186) | [**code**](https://github.com/Ralph-Finn/PEMM)
 
 ## Corrupted Labels Detection
 1. Detecting Corrupted Labels without Training a Model to Predict | **ICML2022** | [paper](https://proceedings.mlr.press/v162/zhu22a/zhu22a.pdf)
@@ -64,7 +96,7 @@ Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openr
 1. Selective Label Enhancement Learning for Test-Time Adaptation | **ICLR2025** | [paper](https://openreview.net/pdf?id=3Z2flzXzBY) | **[code](https://github.com/palm-ml/PASLE)**
 
 ## Multi-Rater Learning
-
+1. Noisy Label Learning with Instance-Dependent Outliers: Identifiability via Crowd Wisdom | **NIPS2025** | [**paper**](https://proceedings.neurips.cc/paper_files/paper/2024/file/b05e6a11df6eacb600074a42bb28ae52-Paper-Conference.pdf) | [**code**](https://github.com/ductri/COINNet)
 ## Active Learning and Coreset Selection
 1. Uncertainty Herding: One Active Learning Method for All Label Budgets | **ICLR2025** | [paper](https://openreview.net/pdf?id=UgPoHhYQ2U)
 2. ELFS: Label-Free Coreset Selection with Proxy Training Dynamics | **ICLR2025** | [paper](https://openreview.net/pdf?id=yklJpvB7Dq)
@@ -89,6 +121,10 @@ Instance-dependent Partial Label Learning | **NIPS2025** | [paper](https://openr
 5. SIMPLE YET EFFECTIVE INCOMPLETE MULTI-VIEWCLUSTERING: SIMILARITY-LEVEL IMPUTATION ANDINTRA-VIEW HYBRID-GROUP PROTOTYPE CONSTRUC-TION | **ICLR2025** | [paper](https://openreview.net/pdf?id=KijslFbfOL) | **[code]**
 6. DROP-UPCYCLING: TRAINING SPARSE MIXTURE OF EXPERTS WITH PARTIAL RE-INITIALIZATION | **ICLR2025** | [paper](https://openreview.net/pdf?id=gx1wHnf5Vp) | **[code]**
 
+## Conformal Prediction
+1. Class Adaptive Conformal Training | **Arxiv2026_Jan** | [paper](https://arxiv.org/pdf/2601.09522) | **[code]**() 
+2. Exploring the Noise Robustness of Online
+Conformal Prediction | **NIPS2025** | [paper](https://arxiv.org/pdf/2501.18363?) | **[code]**()
 
 ## Others
 1. Forming Auxiliary High-confident Instance-level Loss to Promote Learning from Label Proportions | **CVPR2025** | [paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Ma_Forming_Auxiliary_High-confident_Instance-level_Loss_to_Promote_Learning_from_Label_CVPR_2025_paper.pdf) 
@@ -103,3 +139,7 @@ Classification | [**paper**](https://openaccess.thecvf.com/content/CVPR2021/pape
 ## Blogs
 ### Semi Supervised Learning
 [Semi Supervised Learning](https://lilianweng.github.io/posts/2021-12-05-semi-supervised/)
+
+
+## Concepts.
+Gradient Starvation:  (appeared in the dataset distillation)
